@@ -1,4 +1,4 @@
-package dynamicProxy;
+package DesignPattern.StaticProxy;
 
 /**
  * 真实角色.

@@ -1,4 +1,4 @@
-package dynamicProxy;
+package DesignPattern.dynamicProxy;
 
 /**
  * 代理角色.

@@ -1,4 +1,4 @@
-package StaticProxy;
+package DesignPattern.StaticProxy;
 
 /**
  * 抽象角色.

@@ -1,4 +1,4 @@
-package StaticProxy;
+package DesignPattern.dynamicProxy;
 
 /**
  * 真实角色.
@@ -8,7 +8,7 @@ package StaticProxy;
  * @since 2018/12/15 23:19
  */
 
-public class RealStar implements Star {
+public class RealStar implements Star{
 
   @Override
   public void qianHeTong() {
