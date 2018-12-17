@@ -1,6 +1,7 @@
 package leetcode;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 /**
@@ -22,57 +23,27 @@ import java.util.Map;
 public class three {
 
   public static void main(String[] args) {
-    int i = lengthOfLongestSubstring("pwwkew");
+    int i = lengthOfLongestSubstring("tmmxzud");
     System.out.println(i);
   }
 
   public static int lengthOfLongestSubstring(String s) {
-    if (s == null || s.isEmpty()) {
+    if(s==null||s.length()==0){
       return 0;
     }
-    int result = 0;
-    int after = 0;
-    int font = 0;
-    char[] chars = s.toCharArray();
-    Map<Character, Integer> map = new HashMap<>();
-    while (after<chars.length&&font<chars.length) {
-      if(map.containsKey(chars[after])){
-        if(font<map.get(chars[after])+1){
-          font = map.get(chars[after])+1;
-        }
-      }
-      map.put(chars[after],after);
-      after++;
-      if(after-result>0){
-        result = after-font;
+    int res = 0;
+    HashSet set = new HashSet();
+    int pre = 0 ;
+    int last = 0;
+    while(last<s.length()){
+      if(set.contains(s.charAt(last))){
+        set.remove(s.charAt(pre));
+        pre++;
+      }else{
+        set.add(s.charAt(last++));
+        res = Math.max(res,last-pre);
       }
     }
-    return result;
+    return res;
   }
 }
-
-//  public static int lengthOfLongestSubstring(String s) {
-//    if (s == null || s.isEmpty()) {
-//      return 0;
-//    }
-//    if (s.length() == 1) {
-//      return 1;
-//    }
-//    char[] chars = s.toCharArray();
-//    char[] newChar = new char[chars.length];
-//    int sum = 1;
-//    Map<Character,Integer> map = new HashMap<>();
-//    for (int i = 0; i < chars.length; i++) {
-//      newChar[i] = chars[i];
-//      for (int j = 0; j < newChar.length; j++) {
-//        if (i + 1 >= chars.length) {
-//          return sum;
-//        }
-//        if (newChar[j] == chars[i + 1]) {
-//          return sum;
-//        }
-//      }
-//      sum++;
-//    }
-//    return sum;
-//  }
