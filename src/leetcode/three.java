@@ -32,7 +32,7 @@ public class three {
       return 0;
     }
     int res = 0;
-    HashSet set = new HashSet();
+    HashSet<Character> set = new HashSet();
     int pre = 0 ;
     int last = 0;
     while(last<s.length()){
