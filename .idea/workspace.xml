@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ce3f7f8-ab5d-49d2-94f9-735d5e208e2c" name="Default Changelist" comment="java实现队列">
-      <change afterPath="$PROJECT_DIR$/src/MyQueue/MyQueue.java" afterDir="false" />
+    <list default="true" id="7ce3f7f8-ab5d-49d2-94f9-735d5e208e2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Single/DoubleLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +26,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="21" />
+          <entry key="java" value="26" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -34,19 +34,19 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="26" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3858" />
+          <entry key="java" value="4784" />
           <entry key="txt" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3858" />
+          <entry key="JAVA" value="4784" />
           <entry key="PLAIN_TEXT" value="59" />
         </counts>
       </usages-collector>
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyQueue/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="182">
+              <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
               <folding>
                 <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
@@ -102,6 +102,54 @@
                 <element signature="e#1315#1316#0" expanded="true" />
                 <element signature="e#1344#1345#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/Single/DoubleLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DesignPattern/Single/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/JDK/src.zip!/java/util/concurrent/CountDownLatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/JDK/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/JDK/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -119,6 +167,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>静态代理</find>
+      <find>run</find>
+      <find>run()</find>
+      <find>void run</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,6 +193,10 @@
         <option value="$PROJECT_DIR$/src/MyListNode/MyListNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/three.java" />
         <option value="$PROJECT_DIR$/src/MyQueue/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/DoubleLock.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/Main.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/Single/DoubleLock.java" />
+        <option value="$PROJECT_DIR$/src/DesignPattern/Single/Main.java" />
       </list>
     </option>
   </component>
@@ -176,6 +231,19 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Single" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -187,7 +255,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545027622124" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545030239120" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -210,13 +278,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyQueue">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicProxy.Client" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DoubleLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Single.DoubleLock" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicProxy.*" />
+          <option name="PATTERN" value="DesignPattern.Single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cliet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticProxy.Cliet" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Single.Main" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StaticProxy.*" />
+          <option name="PATTERN" value="DesignPattern.Single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,19 +345,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Cliet" />
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Prime" />
       <item itemvalue="Application.MyListNode" />
       <item itemvalue="Application.MyQueue" />
+      <item itemvalue="Application.DoubleLock" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DoubleLock" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.MyListNode" />
         <item itemvalue="Application.Prime" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Cliet" />
       </list>
     </recent_temporary>
   </component>
@@ -334,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545020430681</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="java实现队列">
+      <created>1545027682540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545027682540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13986000" />
+    <option name="totallyTimeSpent" value="16397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,7 +428,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.21748401" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" sideWeight="0.50213677" side_tool="true" weight="0.24731903" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -364,7 +439,7 @@
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18617614" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3188406" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3188406" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.41137123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,7 +477,8 @@
     <MESSAGE value="静态代理，动态代理" />
     <MESSAGE value="多线程求1-1000000以内的质数" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="java实现队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="java实现队列" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/StaticProxy/RealStar.java">
@@ -559,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyQueue/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="182">
+          <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
           <folding>
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
@@ -568,6 +644,44 @@
             <element signature="e#976#977#0" expanded="true" />
             <element signature="e#1315#1316#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/Single/DoubleLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPattern/Single/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
