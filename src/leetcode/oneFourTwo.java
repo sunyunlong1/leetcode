@@ -1,5 +1,10 @@
 package leetcode;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Set;
+
 /**
  * 给定一个链表，判断链表中是否有环。
  *
@@ -44,31 +49,27 @@ package leetcode;
  * @version 1.0
  * @since 2018/12/18 9:38
  */
-/**ListNode slow = head;
- ListNode fast = head.next;
- while(slow!=fast){
- if(fast == null || fast.next == null){
- return false;
- }
- slow = slow.next;
- fast = fast.next.next;
- }
- return true;*/
-public class oneFourOne {
 
-  public boolean hasCycle(ListNode head) {
-    if(head == null || head.next == null){
-      return false;
-    }
-    ListNode l1 = head;
-    ListNode l2 = head;
-    while (l2!=null&&l2.next!=null){
-      l1 = l1.next;
-      l2 = l2.next.next;
-      if(l1==l2){
-        return true;
+public class oneFourTwo {
+  public ListNode detectCycle(ListNode head) {
+      if(head==null || head.next==null){
+        return null;
       }
-    }
-    return false;
+      ListNode l1 = head;
+      ListNode l2 = head;
+      while(l2!=null&&l2.next!=null){
+        l1 = l1.next;
+        l2 = l2.next.next;
+        if(l1==l2){
+          l1=head;
+
+          while(l1!=l2){
+            l1 = l1.next;
+            l2 = l2.next;
+          }
+          return l1;
+        }
+      }
+      return null;
   }
 }
