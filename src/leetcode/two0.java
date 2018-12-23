@@ -29,7 +29,7 @@ import java.util.Stack;
 public class two0 {
 
   public static void main(String[] args) {
-    String s = "()[]{}";
+    String s = "";
     boolean valid = isValid(s);
     System.out.println(valid);
   }
@@ -39,38 +39,38 @@ public class two0 {
     Stack<Character> stack = new Stack<>();
     stack.add('Y');
     for (int i = 0; i < s.length(); i++) {
-      if(s.charAt(i)==')'){
-        if(stack.peek()=='('){
+      if (s.charAt(i) == ')') {
+        if (stack.peek() == '(') {
           stack.pop();
-        }else{
+        } else {
           stack.add(s.charAt(i));
         }
       }
-      if(s.charAt(i)=='('){
+      if (s.charAt(i) == '(') {
         stack.add(s.charAt(i));
       }
-      if(s.charAt(i)==']'){
-        if(stack.peek()=='['){
+      if (s.charAt(i) == ']') {
+        if (stack.peek() == '[') {
           stack.pop();
-        }else{
+        } else {
           stack.add(s.charAt(i));
         }
       }
-      if(s.charAt(i)=='['){
+      if (s.charAt(i) == '[') {
         stack.add(s.charAt(i));
       }
-      if(s.charAt(i)=='}'){
-        if(stack.peek()=='{'){
+      if (s.charAt(i) == '}') {
+        if (stack.peek() == '{') {
           stack.pop();
-        }else{
+        } else {
           stack.add(s.charAt(i));
         }
       }
-      if(s.charAt(i)=='{'){
+      if (s.charAt(i) == '{') {
         stack.add(s.charAt(i));
       }
     }
-    if(stack.pop()=='Y'){
+    if (stack.pop() == 'Y') {
       res = true;
     }
     return res;
