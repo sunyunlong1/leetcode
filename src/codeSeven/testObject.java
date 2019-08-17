@@ -17,15 +17,15 @@ import java.util.Map;
 public class testObject {
 
     public static void main(String[] args) {
-        List<Object> list = new ArrayList<>();
+        List<Map<String,Object>> list = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             Map<String, Object> map = new HashMap<>();
             map.put("i",i);
             list.add(map);
         }
 
-        for (Object obj : list){
-            Map<String,Object> map = (Map<String,Object>)obj;
+        for (Map<String,Object> map : list){
+
             System.out.println(map.get("i"));
         }
 
@@ -39,7 +39,7 @@ public class testObject {
 
 
 
-    public static List<Map<String,Object>>  Pager(int pageIndex, int pageSize, List<Object> list){
+    public static List<Map<String,Object>>  Pager(int pageIndex, int pageSize, List<Map<String,Object>> list){
         //使用list 中的sublist方法分页
         List<Map<String,Object>> dataList = new ArrayList<>();
         // 每页显示多少条记录
