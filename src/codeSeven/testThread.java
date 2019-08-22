@@ -14,21 +14,32 @@ public class testThread {
 
     public static void main(String[] args) {
 
-        ExecutorService service = Executors.newFixedThreadPool(5);
+//        ExecutorService service = Executors.newFixedThreadPool(5);
+//        X x = new X();
+//        for (int i = 0; i < 100; i++) {
+//            service.submit(x);
+//        }
+
         X x = new X();
-        for (int i = 0; i < 100000; i++) {
-            service.submit(x);
+
+        for(int i=0;i<100;i++){
+            new Thread(x).start();
         }
     }
 }
 
 class X extends Thread {
-    static StringBuffer str = new StringBuffer("abc");
+    StringBuffer str = new StringBuffer("abc");
+
 
     @Override
     public void run() {
-        Singleton singleton = Singleton.getInstance();
-
+        //Singleton singleton = Singleton.getInstance();
+       // Y();
+        str.append("1");
+        System.out.println(str);
+//        str.append("1");
+//        System.out.println(str);
     }
 
     public void Y() {
