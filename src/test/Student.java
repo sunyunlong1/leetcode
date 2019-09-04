@@ -1,4 +1,4 @@
-package leetcode;
+package test;
 
 
 public class Student {
