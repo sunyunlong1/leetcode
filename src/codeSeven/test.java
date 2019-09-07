@@ -1,5 +1,8 @@
 package codeSeven;
 
+import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
 /**
@@ -12,19 +15,29 @@ import java.util.Random;
 public class test {
 
     public static void main(String[] args) {
-        Random world =  new Random();
+//        Random world =  new Random();
+//
+//        Person you = new Person(),me = new Person();
+//
+//        final Integer life  = 100;
+//        int i = 0;
+//        do{
+//            you.setLocation(world.nextInt(life));
+//            me.setTarget(world.nextInt(life));
+//            System.out.println(i++);
+//        }while(me.getTarget() != you.getLocation());
+//        System.out.println("stop");
+//        you.eye = me;
+//        me.heart = you;
 
-        Person you = new Person(),me = new Person();
+//        BigDecimal bigDecimal = new BigDecimal(1);
+//        BigDecimal subtract = bigDecimal.subtract(null);
+//        System.out.println(subtract);
 
-        final Integer life  = 100;
-        int i = 0;
-        do{
-            you.setLocation(world.nextInt(life));
-            me.setTarget(world.nextInt(life));
-            System.out.println(i++);
-        }while(me.getTarget() != you.getLocation());
-        System.out.println("stop");
-        you.eye = me;
-        me.heart = you;
+
+        Map<String,String> map = new HashMap<>();
+
+        System.out.println(map.get("a"));
+
     }
 }
