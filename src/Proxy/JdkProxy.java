@@ -1,5 +1,11 @@
 package Proxy;
 
+import codeSeven.Person;
+import sun.misc.ProxyGenerator;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -32,8 +38,13 @@ public class JdkProxy implements InvocationHandler {
     }
 
     public static void main(String[] args) {
+
+        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
+
         JdkProxy jdkProxy = new JdkProxy();
         UserManager u = (UserManager)jdkProxy.getJDKProxy(new UserManagerImpl());
         u.addUser("tom","123");
+
+        u.delUser("123","tom");
     }
 }
