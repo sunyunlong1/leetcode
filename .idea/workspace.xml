@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ce3f7f8-ab5d-49d2-94f9-735d5e208e2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Proxy/JdkProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Proxy/JdkProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proxy/JdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/JdkProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Proxy/JdkProxy.java">
+        <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="57">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,28 +39,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/test/test5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="148">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+        <entry file="file://$PROJECT_DIR$/src/test/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="729" selection-start-line="729" selection-end-line="729" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/ProxyGenerator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+            <state relative-caret-position="779">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -61,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="6536">
               <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
             </state>
           </provider>
@@ -79,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
+            <state relative-caret-position="1881">
               <caret line="128" selection-start-line="128" selection-end-line="128" />
             </state>
           </provider>
@@ -88,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="2128">
               <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
             </state>
           </provider>
@@ -97,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="456">
               <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
             </state>
           </provider>
@@ -106,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Objects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="3097">
               <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
             </state>
           </provider>
@@ -181,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/Proxy/UserManagerImpl.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Proxy/JdkProxy.java" />
+        <option value="$PROJECT_DIR$/src/test/test.java" />
       </list>
     </option>
   </component>
@@ -200,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,20 +238,12 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JdkProxy">
+  <component name="RunManager" selected="Application.test (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamicProxy.Client" />
       <module name="leetcode" />
@@ -319,12 +315,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fourFIveFIve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.fourFIveFIve" />
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,19 +342,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.fourFIveFIve" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.JdkProxy" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test (1)" />
         <item itemvalue="Application.JdkProxy" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.fourFIveFIve" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +387,8 @@
       <workItem from="1567736892424" duration="3605000" />
       <workItem from="1567825456185" duration="245000" />
       <workItem from="1567840063740" duration="914000" />
-      <workItem from="1568101572492" duration="7746000" />
+      <workItem from="1568101572492" duration="8019000" />
+      <workItem from="1568614731509" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="静态代理，动态代理">
       <created>1544888243938</created>
@@ -411,13 +408,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62279000" />
+    <option name="totallyTimeSpent" value="63323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49633968" visible="true" weight="0.28755364" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49633968" visible="true" weight="0.2918455" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -428,8 +425,8 @@
       <window_info id="Structure" order="8" sideWeight="0.5036603" weight="0.23482428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.18617614" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.26746988" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.45180723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.26746988" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.45180723" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
@@ -580,23 +577,6 @@
             <element signature="e#276#277#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -776,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Proxy/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -845,16 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#3030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Proxy/UserManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -869,24 +829,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+    <entry file="file://$PROJECT_DIR$/src/Proxy/JdkProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
+        <state relative-caret-position="665">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        <state relative-caret-position="13034">
+          <caret line="729" selection-start-line="729" selection-end-line="729" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/ProxyGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
+        <state relative-caret-position="1558">
+          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6536">
+          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -897,41 +867,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
+        <state relative-caret-position="1881">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/ProxyGenerator.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+        <state relative-caret-position="2128">
+          <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Proxy/JdkProxy.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="456">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3097">
+          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="148">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="729" selection-start-line="729" selection-end-line="729" />
+        <state relative-caret-position="779">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
         </state>
       </provider>
     </entry>

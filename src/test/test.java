@@ -1,20 +1,26 @@
 package test;
 
+import java.math.BigDecimal;
+
 public class test {
     public static void main(String[] args) {
-        Student student = new Student();
-        test4("12", student);
-        System.out.println(student.getAge()+student.getName());
-        Integer sum = new Integer(500);
-        test5(sum);
-        System.out.println(sum);
-        String str = "!23";
+//        Student student = new Student();
+//        test4("12", student);
+//        System.out.println(student.getAge()+student.getName());
+//        Integer sum = new Integer(500);
+//        test5(sum);
+//        System.out.println(sum);
+//        String str = "!23";
+//
+//        System.out.println(test6(str));
+//
+//        int[] arrays = {4,1,1,1};
+//        test7(arrays);
+//        System.out.println(arrays[0]);
 
-        System.out.println(test6(str));
+        BigDecimal b1 = new BigDecimal(0.12);
 
-        int[] arrays = {4,1,1,1};
-        test7(arrays);
-        System.out.println(arrays[0]);
+        System.out.println(divideByPercent(b1,BigDecimal.ZERO));
     }
 
     private static void test4(String s,Student stu){
@@ -34,5 +40,13 @@ public class test {
 
     private static void test7(int[] arrays){
         arrays[0] = 1;
+    }
+
+
+    public static BigDecimal divideByPercent(BigDecimal p1, BigDecimal p2) {
+        if(p1 == null || p2 == null || p2.compareTo(BigDecimal.ZERO) == 0){
+            return new BigDecimal("0.00");
+        }
+        return p1.multiply(new BigDecimal(100)).divide(p2.abs(), 2, BigDecimal.ROUND_HALF_UP);
     }
 }
