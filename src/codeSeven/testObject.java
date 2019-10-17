@@ -1,40 +1,43 @@
-import java.math.BigDecimal;
-import java.util.*;
+package codeSeven;
 
-public class Main {
+import com.sun.corba.se.spi.ior.ObjectKey;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @ClassName testObject
+ * @Decription TODO
+ * @Auther mac
+ * @Date 2019-08-17 11:21
+ * @Version 1.0
+ **/
+public class testObject {
 
     public static void main(String[] args) {
-
         List<Map<String,Object>> list = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            Map<String, Object> map = new HashMap<>();
+            map.put("i",i);
+            list.add(map);
+        }
 
-        Long a = new Long(156767280300L);
+        for (Map<String,Object> map : list){
 
-//        List<Map<String,Object>> list1 = list.subList(0, 10);
-//        System.out.println(list1);
-        Collections.sort(list, new Comparator<Map<String, Object>>() {
-            @Override
-            public int compare(Map<String, Object> o1, Map<String, Object> o2) {
-                if (o1.get("ds").equals(o2.get("ds"))) {
-                    BigDecimal name1 = (BigDecimal) o1.get("01");
-                    BigDecimal name2 = (BigDecimal) o2.get("01");
-                    if ("desc".equals("desc")) {
-                        return name2.compareTo(name1);
-                    } else {
-                        return name1.compareTo(name2);
-                    }
-                } else {
-                    String str1 = String.valueOf(o1.get("ds"));
-                    String str2 = String.valueOf(o2.get("ds"));
-                    return str2.compareTo(str1);
-                }
-            }
-        });
-        List<Map<String, Object>> pager = Pager(1, 10, list);
-        System.out.println(pager);
+            System.out.println(map.get("i"));
+        }
 
+        List<Map<String, Object>> pager = Pager(1, 4, list);
 
-        System.out.println("Hello World!");
+        System.out.println("-------------");
+        for (Map<String,Object> map : pager){
+            System.out.println(map.get("i"));
+        }
     }
+
+
 
     public static List<Map<String,Object>>  Pager(int pageIndex, int pageSize, List<Map<String,Object>> list){
         //使用list 中的sublist方法分页
@@ -69,8 +72,7 @@ public class Main {
         try{
             dataList = list.subList(fromIndex, toIndex);
         }catch(IndexOutOfBoundsException e){
-            System.out.println(e);
+            e.printStackTrace();
         }
         return dataList;
-    }
-}
+    }}
