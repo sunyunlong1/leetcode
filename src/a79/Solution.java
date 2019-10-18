@@ -14,47 +14,33 @@ import java.util.List;
  **/
 public class Solution {
 
-    List<String> result = new ArrayList<>();
+    static int[] row = {0,1,0,-1};
+    static int[] column = {1,0,-1,0};
 
     public  boolean exist(char[][] board, String word) {
-        Trie trie = new Trie();
-        trie.insert(word);
-        int m = board.length;
-        int n = board[0].length;
-        boolean[][] visited = new boolean[m][n];
-        for (int i =0;i<m;i++){
-            for (int j=0;j<n;j++){
-                def(board,visited,"",i,j,trie);
-            }
-        }
-        if (result.size() > 0){
-            if (result.get(0).equals(word)){
-                return true;
-            }else{
-                return false;
+
+        for (int i =0,rowLen = board.length;i<rowLen;i++){
+            for (int j=0,columnLen = board[0].length;j<columnLen;j++){
+                if (dfs(board,word,i,j,0)) return true;
             }
         }
         return false;
     }
 
-    public void def(char[][] board,boolean[][] visited,String str,int x,int y,Trie trie){
-        if (x<0 || x>=board.length || y<0 || y>=board[0].length) return;
+    public boolean dfs(char[][] board,String word,int x,int y,int index){
+        if (x<0 || x>=board.length || y<0 || y>=board[0].length) return false;
 
-        if (visited[x][y]) return;
+        if(board[x][y] != word.charAt(index)) return false;
 
-        str+=board[x][y];
+        if(index == word.length() - 1) return true;
 
-        if(!trie.startsWith(str)) return;
+        board[x][y] = '#';
 
-        if (trie.search(str)){
-            result.add(str);
+        for (int i = 0 ; i<4;i++){
+            if (dfs(board,word,x+row[i],y+column[i],index+1)) return true;
         }
-        visited[x][y] = true;
-        def(board,visited,str,x-1,y,trie);
-        def(board,visited,str,x+1,y,trie);
-        def(board,visited,str,x,y-1,trie);
-        def(board,visited,str,x,y+1,trie);
-        visited[x][y] = false;
+        board[x][y] = word.charAt(index);
+        return false;
     }
 
 
