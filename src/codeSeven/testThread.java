@@ -34,7 +34,7 @@ class X extends Thread {
 
     @Override
     public void run() {
-        //Singleton singleton = Singleton.getInstance();
+        //Singleton Singleton = Singleton.getInstance();
        // Y();
         str.append("1");
         System.out.println(str);
